@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@300&family=Sacramento&display=swap');
+body {
+    background: linear-gradient(#2b5876, #4e4376);
+}
+
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'sacramento';
+    margin-top: 10px;
+    position: relative;
+    letter-spacing: 5px;
+}
+
+.heading:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #000;
+    left: 30%;
+    top: 90%;
+    position: absolute;
+}
+
+.temperature {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'poppins';
+}
+
+.cityname {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'montserrat';
+}
+
+.condition {
+    text-align: center;
+    font-size: 3rem !important;
+    font-family: 'poppins';
+}
+
+.emoji {
+    text-align: center;
+    margin-top: 10px;
+}
