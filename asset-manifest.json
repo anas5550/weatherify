@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/weatherify/static/css/main.cef61da1.chunk.css",
+    "main.js": "/weatherify/static/js/main.20df5e8b.chunk.js",
+    "main.js.map": "/weatherify/static/js/main.20df5e8b.chunk.js.map",
+    "runtime-main.js": "/weatherify/static/js/runtime-main.dbd25fa1.js",
+    "runtime-main.js.map": "/weatherify/static/js/runtime-main.dbd25fa1.js.map",
+    "static/css/2.9f0b74ee.chunk.css": "/weatherify/static/css/2.9f0b74ee.chunk.css",
+    "static/js/2.c843b6d3.chunk.js": "/weatherify/static/js/2.c843b6d3.chunk.js",
+    "static/js/2.c843b6d3.chunk.js.map": "/weatherify/static/js/2.c843b6d3.chunk.js.map",
+    "static/js/3.c70f4dab.chunk.js": "/weatherify/static/js/3.c70f4dab.chunk.js",
+    "static/js/3.c70f4dab.chunk.js.map": "/weatherify/static/js/3.c70f4dab.chunk.js.map",
+    "index.html": "/weatherify/index.html",
+    "static/css/2.9f0b74ee.chunk.css.map": "/weatherify/static/css/2.9f0b74ee.chunk.css.map",
+    "static/css/main.cef61da1.chunk.css.map": "/weatherify/static/css/main.cef61da1.chunk.css.map",
+    "static/js/2.c843b6d3.chunk.js.LICENSE.txt": "/weatherify/static/js/2.c843b6d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbd25fa1.js",
+    "static/css/2.9f0b74ee.chunk.css",
+    "static/js/2.c843b6d3.chunk.js",
+    "static/css/main.cef61da1.chunk.css",
+    "static/js/main.20df5e8b.chunk.js"
+  ]
+}
