@@ -88,7 +88,7 @@ const notify = () => toast.error("Opps 😥, City Not Found!");
           <div className="card shadow weather-bg">
             <div className="col">
               <h1 className="heading">Weatherify</h1>
-                <input type="text" placeholder="City name" value={inputData} onChange={(e)=>{setInputData(e.target.value)}} required/>
+                <input type="text" className="form-control" placeholder="City name" value={inputData} onChange={(e)=>{setInputData(e.target.value)}} required/>
                 <div className="d-grid gap-2">
                   <button onClick={getData} className="btn btn-dark">Get Weather Info</button>
                 </div>
