@@ -1,74 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@300&family=Sacramento&display=swap');
-body {
-    background: linear-gradient(#2b5876, #4e4376);
-}
-
-.App {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    height: 500px;
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-input[type="text"] {
-    width: 400px;
-    padding: 10px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-
-.btn {
-    margin-bottom: 30px;
-}
-
-.heading {
-    text-align: center;
-    font-family: 'sacramento';
-    margin-top: 10px;
-    position: relative;
-    letter-spacing: 5px;
-}
-
-.heading:after {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 2px;
-    background: #000;
-    left: 30%;
-    top: 90%;
-    position: absolute;
-}
-
-.temperature {
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'poppins';
-}
-
-.cityname {
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'montserrat';
-}
-
-.condition {
-    text-align: center;
-    font-size: 3rem !important;
-    font-family: 'poppins';
-}
-
-.emoji {
-    text-align: center;
-    margin-top: 10px;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@300&family=Sacramento&display=swap');
+    body {
+        background: linear-gradient(#2b5876, #4e4376);
+    }
+    
+    .container {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .card {
+        height: 500px;
+        max-width: 500px;
+        position: sticky;
+        left: 0;
+        top: 20px;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    .btn {
+        margin-bottom: 30px;
+    }
+    
+    .heading {
+        text-align: center;
+        font-family: 'sacramento';
+        margin-top: 10px;
+        position: relative;
+        letter-spacing: 5px;
+    }
+    
+    .heading:after {
+        content: "";
+        display: block;
+        width: 130px;
+        height: 2px;
+        background: #000;
+        left: 30%;
+        top: 90%;
+        position: absolute;
+    }
+    
+    .temperature {
+        text-align: center;
+        font-size: 4.5rem;
+        font-family: 'poppins';
+    }
+    
+    .cityname {
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'montserrat';
+        font-weight: bolder;
+    }
+    
+    .condition {
+        text-align: center;
+        font-size: 3rem !important;
+        font-family: 'poppins';
+    }
+    
+    .emoji {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .table {
+        text-align: center;
+        background: white;
+    }
+    
+    tr:hover {
+        background: lightgreen;
+    }
+    
+    .navbar-heading {
+        color: white;
+    }
+    
+    .navbar-heading:hover {
+        color: red;
+    }
+    
+    .dashboard,
+    .weather-heading {
+        color: white;
+    }
+    
+    .weather-bg {
+        background-image: url('abc.jpg');
+        /* background-position: center center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .credit {
+        bottom: 0%;
+        right: 2%;
+        position: fixed;
+        color: white;
+        font-family: 'poppins', sans-serif;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .card {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        .heading:after {
+            left: 10%;
+            top: 90%;
+        }
+    }
