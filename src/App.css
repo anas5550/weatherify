@@ -52,20 +52,20 @@
     .temperature {
         text-align: center;
         font-size: 4.5rem;
-        font-family: 'Poppins',Helvetica, Arial, Verdana, Tahoma;
+        font-family: 'Poppins',"Times New Roman", Times, serif;
     }
     
     .cityname {
         text-align: center;
         font-size: 3rem;
-        font-family: 'Montserrat',Helvetica, Arial, Verdana, Tahoma;
+        font-family: 'Montserrat',"Times New Roman", Times, serif;
         font-weight: bolder;
     }
     
     .condition {
         text-align: center;
         font-size: 3rem !important;
-        font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma;
+        font-family: 'Poppins', "Times New Roman", Times, serif;
     }
     
     .emoji {
@@ -107,7 +107,7 @@
         right: 2%;
         position: fixed;
         color: white;
-        font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+        font-family: 'Poppins', "Times New Roman", Times, serif;
         font-weight: 100;
         font-size: 12px;
     }
